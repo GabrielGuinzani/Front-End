@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHAT HTML - GABRIEL FERREIRA</title>
+    <link rel="stylesheet" href="chat.css" />
+  </head>
+  <body>
+    <div id="chat-screen">
+      <header>
+        <div class="titulo">
+          <h2>ATENDIMENTO ONLINE</h2>
+        </div>
+      </header>
+      <div class="messages-list" id="conversa">
+        <div class="message-item">
+          <div class="msg-user"><strong>Atendente diz:</strong></div>
+          <div class="msg-chat">Olá, como posso ajudar?</div>
+        </div>
+      </div>
+      <form id="form-chat-send" action="index.html" method="post">
+        <input type="text" id="message" name="message" placeholder="Digite sua mensagem..." class="typebar">
+        <button type="submit" class="botao">ENVIAR</button>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+
+</html>
